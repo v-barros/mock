@@ -1,0 +1,371 @@
+[
+
+    {
+      "httpRequest": {
+          "method": "GET",
+          "path": "/products/.*"
+      },
+      "httpResponse": {
+          "statusCode": 200,
+          "body": {
+              "id": "asddgf6d45sf65d4sf",
+              "title": "12313216465",
+              "description": "wqrewdasdasd",
+              "price": 1000,
+              "ownerId": "asddf-52dc-427a-9ae0-21265dcfd0c7",
+              "productCategory": "SPORTS"
+          }, 
+          "headers": {
+              "Content-Type": ["application/json"]
+          }
+      },
+      "times":{
+          "unlimited":true
+      },
+      "timeToLive":{
+          "unlimited":true
+      }
+    },
+      {
+        "httpRequest": {
+            "method": "GET",
+            "path": "/products/search?searchText=.*"
+        },
+        "httpResponse": {
+            "statusCode": 200,
+            "body": [
+                {
+                    "id": "6154ab9280d83b43dccb8c4c",
+                    "title": "Xbox One",
+                    "description": "asdasdasdasdasdfds",
+                    "fiatPrice": 100,
+                    "ownerId": "3213123-12312-461d-a68f-5f7e5cae9998",
+                    "productCategory": "asdasdasdgçkdfmklgbmlkgm"
+                },
+                {
+                    "id": "asdytjrthjrt",
+                    "title": "Xbox",
+                    "description": "gdfgdfgdfgdf",
+                    "fiatPrice": 100,
+                    "ownerId": "3213123-erhdfghdfg-461d-a68f-5f7e5cae9998",
+                    "productCategory": "sdfhtlkltmnjlkh"
+                },{
+                    "id": "asdassdfsd",
+                    "title": "Xsdffdsdf",
+                    "description": "jtjdfghj",
+                    "fiatPrice": 100,
+                    "ownerId": "hgjghjgh461d-a68f-5f7e5cae9998",
+                    "productCategory": "asdasdasdasdasdasdasd"
+                },{
+                    "id": "ghjghjghjg",
+                    "title": "Xbox ghjgh",
+                    "description": "ghhderfgdfg",
+                    "fiatPrice": 100,
+                    "ownerId": "3213123-dfgdf-461d-a68f-5f7e5cae9998",
+                    "productCategory": "asdsdasd"
+                },
+                {
+                    "id": "dfgdjghjgh",
+                    "title": "jghjgulol",
+                    "description": "çpçhgkghkjghj",
+                    "fiatPrice": 1000,
+                    "ownerId": "ghjfghgerg27a-9ae0-21265dcfd0c7",
+                    "productCategory": "wrffsdf"
+                }
+                ,{
+                    "id": "6154abccb8c4c",
+                    "title": "Xbox One",
+                    "description": "asdasasdfds",
+                    "fiatPrice": 100,
+                    "ownerId": "3213123-1a68f-5f7e5cae9998",
+                    "productCategory": "asdaçkdfmklgbmlkgm"
+                },
+                {
+                    "id": "asdafgsdjrthjrt",
+                    "title": "Xbox",
+                    "description": "gdffgdf",
+                    "fiatPrice": 100,
+                    "ownerId": "3213123-erfg-461d-a7e5cae9998",
+                    "productCategory": "sdfhtnjlkh"
+                },{
+                    "id": "asdasd",
+                    "title": "Xsdfdsdf",
+                    "description": "jtfghj",
+                    "fiatPrice": 100,
+                    "ownerId": "hgjghjgh-a68f-5f7e5cae9998",
+                    "productCategory": "asdasdasdasd"
+                },{
+                    "id": "ghjhjg",
+                    "title": "Xbox ghjggh",
+                    "description": "ghjgderfgdfg",
+                    "fiatPrice": 100,
+                    "ownerId": "3213123-ddfgdf-461d-a68f-5f7e5cae9998",
+                    "productCategory": "asdgfhjasdasd"
+                },
+                {
+                    "id": "dfgdfgjfjghjgh",
+                    "title": "jghjkiuiulol",
+                    "description": "çpoçopjkljgkghkjghj",
+                    "fiatPrice": 1000,
+                    "ownerId": "ghjfghgg-52dc-427a-9ae0-21265dcfd0c7",
+                    "productCategory": "wrwerfghdfsdfsdf"
+                }
+            ], 
+            "headers": {
+                "Content-Type": ["application/json"]
+            }
+        },
+        "times":{
+            "unlimited":true
+        },
+        "timeToLive":{
+            "unlimited":true
+        }
+    },
+    {
+      "httpRequest": {
+          "method": "GET",
+          "path": "/products"
+      },
+      "httpResponse": {
+          "statusCode": 200,
+          "body": [
+              {
+                  "id": "6154ab9280d83b43dccb8c4c",
+                  "title": "Xbox One",
+                  "description": "asdasdasdasdasdfds",
+                  "fiatPrice": 100,
+                  "ownerId": "3213123-12312-461d-a68f-5f7e5cae9998",
+                  "productCategory": "asdasdasdgçkdfmklgbmlkgm"
+              },
+              {
+                  "id": "asdafgsdfgdfhytjrthjrt",
+                  "title": "Xbox",
+                  "description": "gdfgdfgdfgdf",
+                  "fiatPrice": 100,
+                  "ownerId": "3213123-erhdfghdfg-461d-a68f-5f7e5cae9998",
+                  "productCategory": "sdfhtlkltmnjlkh"
+              },{
+                  "id": "asdasdasfsdfsd",
+                  "title": "Xsdfsdfasfdsdf",
+                  "description": "jtkyjytjdfghj",
+                  "fiatPrice": 100,
+                  "ownerId": "hgjghjghj-12312-461d-a68f-5f7e5cae9998",
+                  "productCategory": "asdasdasdasdasdasdasdasd"
+              },{
+                  "id": "ghjghjghjg",
+                  "title": "Xbox ghjghjgh",
+                  "description": "ghjghjghderfgdfg",
+                  "fiatPrice": 100,
+                  "ownerId": "3213123-dfgdfgdfgdf-461d-a68f-5f7e5cae9998",
+                  "productCategory": "asdasdasdasd"
+              },
+              {
+                  "id": "dfgdfgdjhfgjfjghjgh",
+                  "title": "jghjghjgkiuiulol",
+                  "description": "çpoçoppoçhjkljgkghkjghj",
+                  "fiatPrice": 1000,
+                  "ownerId": "ghjfghgrgregerg-52dc-427a-9ae0-21265dcfd0c7",
+                  "productCategory": "wrwerwffsdfsdfsdf"
+              },
+              {
+                  "id": "6154ab9280d83b43dccb8c4c",
+                  "title": "Xbox One",
+                  "description": "asdasdasdasdasdfds",
+                  "fiatPrice": 100,
+                  "ownerId": "3213123-12312-461d-a68f-5f7e5cae9998",
+                  "productCategory": "asdasdasdgçkdfmklgbmlkgm"
+              },
+              {
+                  "id": "asdafgsdfgdfhytjrthjrt",
+                  "title": "Xbox",
+                  "description": "gdfgdfgdfgdf",
+                  "fiatPrice": 100,
+                  "ownerId": "3213123-erhdfghdfg-461d-a68f-5f7e5cae9998",
+                  "productCategory": "sdfhtlkltmnjlkh"
+              },{
+                  "id": "asdasdasfsdfsd",
+                  "title": "Xsdfsdfasfdsdf",
+                  "description": "jtkyjytjdfghj",
+                  "fiatPrice": 100,
+                  "ownerId": "hgjghjghj-12312-461d-a68f-5f7e5cae9998",
+                  "productCategory": "asdasdasdasdasdasdasdasd"
+              },{
+                  "id": "ghjghjghjg",
+                  "title": "Xbox ghjghjgh",
+                  "description": "ghjghjghderfgdfg",
+                  "fiatPrice": 100,
+                  "ownerId": "3213123-dfgdfgdfgdf-461d-a68f-5f7e5cae9998",
+                  "productCategory": "asdasdasdasd"
+              },
+              {
+                  "id": "dfgdfgdjhfgjfjghjgh",
+                  "title": "jghjghjgkiuiulol",
+                  "description": "çpoçoppoçhjkljgkghkjghj",
+                  "fiatPrice": 1000,
+                  "ownerId": "ghjfghgrgregerg-52dc-427a-9ae0-21265dcfd0c7",
+                  "productCategory": "wrwerwffsdfsdfsdf"
+              },
+              {
+                  "id": "6154ab9280d83b43dccb8c4c",
+                  "title": "Xbox One",
+                  "description": "asdasdasdasdasdfds",
+                  "fiatPrice": 100,
+                  "ownerId": "3213123-12312-461d-a68f-5f7e5cae9998",
+                  "productCategory": "asdasdasdgçkdfmklgbmlkgm"
+              },
+              {
+                  "id": "asdafgsdfgdfhytjrthjrt",
+                  "title": "Xbox",
+                  "description": "gdfgdfgdfgdf",
+                  "fiatPrice": 100,
+                  "ownerId": "3213123-erhdfghdfg-461d-a68f-5f7e5cae9998",
+                  "productCategory": "sdfhtlkltmnjlkh"
+              },{
+                  "id": "asdasdasfsdfsd",
+                  "title": "Xsdfsdfasfdsdf",
+                  "description": "jtkyjytjdfghj",
+                  "fiatPrice": 100,
+                  "ownerId": "hgjghjghj-12312-461d-a68f-5f7e5cae9998",
+                  "productCategory": "asdasdasdasdasdasdasdasd"
+              },{
+                  "id": "ghjghjghjg",
+                  "title": "Xbox ghjghjgh",
+                  "description": "ghjghjghderfgdfg",
+                  "fiatPrice": 100,
+                  "ownerId": "3213123-dfgdfgdfgdf-461d-a68f-5f7e5cae9998",
+                  "productCategory": "asdasdasdasd"
+              },
+              {
+                  "id": "dfgdfgdjhfgjfjghjgh",
+                  "title": "jghjghjgkiuiulol",
+                  "description": "çpoçoppoçhjkljgkghkjghj",
+                  "fiatPrice": 1000,
+                  "ownerId": "ghjfghgrgregerg-52dc-427a-9ae0-21265dcfd0c7",
+                  "productCategory": "wrwerwffsdfsdfsdf"
+              }  
+          ], 
+          "headers": {
+              "Content-Type": ["application/json"]
+          }
+      },
+      "times":{
+          "unlimited":true
+      },
+      "timeToLive":{
+          "unlimited":true
+      }
+    },
+    {
+      "httpRequest": {
+          "method": "POST",
+          "path": "/products"
+      },
+      "httpResponse": {
+          "statusCode": 201,
+          "body": {
+              "id": "6155f8c7a06fc712c64117c4",
+              "title": "wg20hNGbI12Ef5s84Rxa",
+              "description": "sadasdasdasdasda",
+              "price": 1000,
+              "ownerId": "fca48cc7-52dc-427a-9ae0-21265dcfd0c7",
+              "productCategory": "ELETRONICS"
+          }, 
+          "headers": {
+              "Content-Type": ["application/json"]
+          }
+      },
+      "times":{
+          "unlimited":true
+      },
+      "timeToLive":{
+          "unlimited":true
+      }
+  },
+  {
+    "httpRequest": {
+        "method": "GET",
+        "path": "/user/.*"
+    },
+    "httpResponse": {
+        "statusCode": 200,
+        "body": {
+              "body":"6662515e-17cf-4964-a0ca-10a6e3b9eec2",
+              "email":"wMNF4G4ZJXR0evoCkaPg@test.com",
+              "name":"udsWRKSzhtSW",
+              "nickName":"6y0MXSiD9cUAJqe83GsPL"
+        },
+        "headers":{
+            "Content-Type":["application/json"]
+        }
+    },
+    "times":{
+        "unlimited":true
+    },
+    "timeToLive":{
+        "unlimited":true
+    }
+  },
+  {
+    "httpRequest": {
+        "method": "POST",
+        "path": "/auth"
+      },
+      "httpResponse": {
+        "statusCode": 200,
+        "body": {
+          "token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMjNAdGVzdGUuY29tIiwiZXhwIjoxNjMzMDI0NjA2fQ.nxoeujZlD04GoKfaZIDBwHswpjQJbriTcJSNOS6hsFoEXvZ7TO_JWGA_T8Jc_DvH5t_eTGQDZv5wRD6xpbt2yw",
+          "type":"Bearer"
+        }, 
+        "headers":{
+            "Content-Type":["application/json"]
+        }
+      },
+    "times" : {
+        "unlimited" : true
+    },
+    "timeToLive" : {
+        "unlimited" : true
+    } 
+  },
+  {
+     "httpRequest":{
+        "method":"POST",
+        "path":"/user/registration"
+     },
+     "httpResponse":{
+        "headers":{
+           "Content-Type":["application/json"]
+        },
+        "statusCode":201,
+        "body":{
+           "id":"6662515e-54fc-4964-a0ca-10a6e3b9eec2",
+           "email":"wMNCbC4ZJXR0evoCkaPg@test.com",
+           "name":"uJnRKSzhtSW",
+           "nickName":"6y0MXSiD9cUAJqe8B8PL"
+        }
+     },
+     "times":{
+        "unlimited":true
+     },
+     "timeToLive":{
+        "unlimited":true
+     }
+  },
+  {
+     "httpRequest":{
+        "path":"/simpleFirst"
+     },
+     "httpResponse":{
+        "body":"some first response"
+     }
+  },
+  {
+     "httpRequest":{
+        "path":"/simpleSecond"
+     },
+     "httpResponse":{
+        "body":"some second response"
+     }
+  }
+]
