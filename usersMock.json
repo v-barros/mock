@@ -1,0 +1,87 @@
+[{
+    "httpRequest": {
+        "method": "GET",
+        "path": "/user/.*"
+    },
+    "httpResponse": {
+        "statusCode": 200,
+        "body": {
+              "body":"6662515e-17cf-4964-a0ca-10a6e3b9eec2",
+              "email":"wMNF4G4ZJXR0evoCkaPg@test.com",
+              "name":"udsWRKSzhtSW",
+              "nickName":"6y0MXSiD9cUAJqe83GsPL"
+        },
+        "headers":{
+            "Content-Type":["application/json"]
+        }
+    },
+    "times":{
+        "unlimited":true
+    },
+    "timeToLive":{
+        "unlimited":true
+    }
+  },
+  {
+    "httpRequest": {
+        "method": "POST",
+        "path": "/auth"
+      },
+      "httpResponse": {
+        "statusCode": 200,
+        "body": {
+          "token":"eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxMjNAdGVzdGUuY29tIiwiZXhwIjoxNjMzMDI0NjA2fQ.nxoeujZlD04GoKfaZIDBwHswpjQJbriTcJSNOS6hsFoEXvZ7TO_JWGA_T8Jc_DvH5t_eTGQDZv5wRD6xpbt2yw",
+          "type":"Bearer"
+        }, 
+        "headers":{
+            "Content-Type":["application/json"]
+        }
+      },
+    "times" : {
+        "unlimited" : true
+    },
+    "timeToLive" : {
+        "unlimited" : true
+    } 
+  },
+  {
+     "httpRequest":{
+        "method":"POST",
+        "path":"/user/registration"
+     },
+     "httpResponse":{
+        "headers":{
+           "Content-Type":["application/json"]
+        },
+        "statusCode":201,
+        "body":{
+           "id":"6662515e-54fc-4964-a0ca-10a6e3b9eec2",
+           "email":"wMNCbC4ZJXR0evoCkaPg@test.com",
+           "name":"uJnRKSzhtSW",
+           "nickName":"6y0MXSiD9cUAJqe8B8PL"
+        }
+     },
+     "times":{
+        "unlimited":true
+     },
+     "timeToLive":{
+        "unlimited":true
+     }
+  },
+  {
+    "httpRequest":{
+       "path":"/simpleFirst"
+    },
+    "httpResponse":{
+       "body":"some first response"
+    }
+ },
+ {
+    "httpRequest":{
+       "path":"/simpleSecond"
+    },
+    "httpResponse":{
+       "body":"some second response"
+    }
+ }
+]
